@@ -78,7 +78,7 @@ const ListedBooks = () => {
 
             {/* Books List Section */}
             <div className="flex-grow overflow-y-auto p-6 bg-gray-100">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 gap-6">
                     {sortedBooks.length > 0 ? (
                         sortedBooks.map((book, index) => (
                             <div key={index} className="bg-white shadow-md rounded-md p-4 flex flex-col lg:flex-row gap-6">
